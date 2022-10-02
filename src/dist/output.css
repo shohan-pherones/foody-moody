@@ -864,8 +864,16 @@ video {
   padding-right: 0.75rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-xl {
@@ -1010,6 +1018,10 @@ video {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .ease-in-out {
